@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:untitled/BMICalculate.dart';
+import 'package:untitled/BMIresult.dart';
 import 'package:untitled/Counter_Screen.dart';
 import 'package:untitled/MessangerScreen.dart';
 //import 'package:untitled/home_screen.dart';
@@ -29,7 +31,7 @@ class MyApp extends StatelessWidget{
   Widget build(BuildContext context) { // Build is the manager or your App screen
    return MaterialApp(
      debugShowCheckedModeBanner: false, // for remove the debug sign in the corner
-     home: users_Screen(),
+     home: BMICalculate(),
 
    );
 
